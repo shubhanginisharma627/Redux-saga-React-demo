@@ -8,7 +8,7 @@ const Header=()=> {
   return (
     <div className='header'>
         <div className='cart-div'>
-        <span>0</span>
+        <span>{Object.keys(result).length}</span>
         <AddShoppingCartIcon className='shop'></AddShoppingCartIcon>
         </div>
     </div>
