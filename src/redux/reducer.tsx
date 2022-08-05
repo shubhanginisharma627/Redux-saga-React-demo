@@ -27,7 +27,8 @@ const cartData =(data=[],action:Action)=>{
              return [...data]
         case EMPTY_Cart:
             console.log("Empty cart",action)
-             return 1-1;
+             data =[] 
+             return [...data]
         default:
             return data;
             
