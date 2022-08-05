@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+ align-items: center;
 }
 
 .App-logo {
@@ -21,7 +21,29 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
 }
+.header{
+   
+   background-color: aquamarine;
+   height: 50px;
+}
 
+.cart-div {
+  float: right;
+  
+  margin: 25px;
+  position: relative;
+}
+.cart-div span{
+ position: absolute;
+ z-index: 3;
+ background-color: plum;
+ height: 20px;
+ width: 20px;
+border-radius: 50%;
+color: bisque;
+top:-16px;
+right: 0;
+}
 .App-link {
   color: rgb(112, 76, 182);
 }
