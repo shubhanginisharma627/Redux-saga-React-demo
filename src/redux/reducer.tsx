@@ -1,5 +1,5 @@
 
-import { Add_To_Cart, REMOVE_To_Cart } from "./constant"
+import { Add_To_Cart, EMPTY_Cart, REMOVE_From_Cart } from "./constant"
 import {Action} from './Interface'
 
 
@@ -20,14 +20,17 @@ const cartData =(data=[],action:Action)=>{
         case Add_To_Cart:
             console.log("Add_To_Cart Condition",action)
             return [action.data,...data]
-            break;
-        case REMOVE_To_Cart:
+            
+        case REMOVE_From_Cart:
             console.log("Remove_To_Cart Condition",action)
-            return 1-1;
-            break;
+             data.length=data.length-1 
+             return [...data]
+        case EMPTY_Cart:
+            console.log("Empty cart",action)
+             return 1-1;
         default:
             return data;
-            break;
+            
 
     }
       
