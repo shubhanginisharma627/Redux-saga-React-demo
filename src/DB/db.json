@@ -1,0 +1,40 @@
+{
+    "product":[
+        {
+            "id":1,
+            "name":"Samsung A80 ",
+            "color":"black",
+            "price":"85000",
+            "category":"Mobile",
+            "brand":"Samsung",
+            "photo":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_lK4xNCYYZnQ_APKLRhq3XAhnKm6a-Bo4nw&usqp=CAU"
+        },
+        {
+            "id":2,
+            "name":"Samsung A50 ",
+            "color":"white",
+            "price":"65000",
+            "category":"Mobile",
+            "brand":"Samsung",
+            "photo":"https://static.toiimg.com/thumb/resizemode-4,msid-68254981,imgsize-500,width-800/68254981.jpg"
+        },
+        {
+            "id":3,
+            "name":"T-shirt ",
+            "color":"plum",
+            "price":"5000",
+            "category":"cloths",
+            "brand":"Nike",
+            "photo":"https://assets.ajio.com/medias/sys_master/root/20211005/YiS7/615b7de0f997ddce89f6f17b/-288Wx360H-463063950-purple-MODEL.jpg"
+        },
+        {
+            "id":4,
+            "name":" Sport Shoes ",
+            "color":"red and black",
+            "price":"8000",
+            "category":"rebook",
+            "brand":"Nike",
+            "photo":"https://n2.sdlcdn.com/imgs/a/r/l/Reebok-Black-And-Red-Colour-SDL120713259-2-075a7.jpg"
+        }
+    ]
+}

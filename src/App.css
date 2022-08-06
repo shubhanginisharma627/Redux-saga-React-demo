@@ -23,7 +23,7 @@
 }
 .header{
    
-   background-color: aquamarine;
+   background-color: #e3f2fd;;
    height: 50px;
 }
 
@@ -59,3 +59,5 @@ right: 0;
     transform: translateY(0px);
   }
 }
+
+
