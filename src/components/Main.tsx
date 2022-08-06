@@ -4,7 +4,7 @@ import { useDispatch } from 'react-redux';
 import { productList } from '../redux/productAction';
 import { useSelector } from 'react-redux';
 import { IRootState } from '../redux/rootReducer';
-import { Product } from '../redux/Interface';
+import { data, Product } from '../redux/Interface';
 const Main=()=>{
      const dispatch =useDispatch();
      const data = useSelector((state: IRootState)=>state.productData);
