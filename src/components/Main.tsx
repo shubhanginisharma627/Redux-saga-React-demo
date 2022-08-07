@@ -11,41 +11,35 @@ const Main=()=>{
      const data = useSelector((state: IRootState)=>state.productData);
  
      console.warn("data in main component from saga",data);
-     const product ={
-       name:"I-phone",
-       type:'moblie',
-       price:1000000,
-       color:'red'
-     }
+
+   
      return(
           <div>
-              
+          <button onClick={()=>dispatch(addToCart(data))}>Add To Cart</button>
+
                <div>
-                <button onClick={()=>dispatch(removeFromcart(product))}>Remove From cart</button>
+                <button onClick={()=>dispatch(removeFromcart(data))}>Remove From cart</button>
                 </div>
                 <div>
-               <button onClick={()=>dispatch(Emptycart(product))}>Empty cart</button>
+               <button onClick={()=>dispatch(Emptycart(data))}>Empty cart</button>
                </div>
                <div>
                <button onClick={()=>dispatch(productList())}>Product List</button>
                     </div>
                     <div className='product-container'>
                     {
-                       data.map((item:any) =><div>
-                         <img src ={item.photo} alt="photo"/>
-                         <div>Name  :{item.name}</div>
-                         <div>Color :{item.color}</div>
-                         <div>Brand :{item.brand}</div>
-                         <div>Price :{item.price}</div>
-                         <div>Category :{item.category}</div>
-                         <div>
-                         <button onClick={()=>dispatch(addToCart(product))}>Add to Cart</button>
-                         <button onClick={()=>dispatch(removeFromcart(product))}>Remove From cart</button>
-                         </div>
-                       </div> )
+                       [data].map((item:any) =><div key={item.id}>
+                       <img src ={item.photo} alt="photo" key={item.photo} />
+                       <p >Name  :{item.name}</p>
+                       <p>Color :{item.color}</p>
+                       <p>Brand :{item.brand}</p>
+                       <p>Price :{item.price}</p>
+                       <p>Category :{item.category}</p>
+                   </div> )
                        
                     }
                    </div>
+
           </div>
      )
 }
