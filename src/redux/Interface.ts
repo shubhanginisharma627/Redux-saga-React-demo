@@ -24,5 +24,5 @@ export interface Rootdata{
 }
 export interface Action {
     type?:string
-    data:data
+    data:Product
 }
