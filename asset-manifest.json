@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Redux-saga-React-demo/static/css/main.b326e132.css",
-    "main.js": "/Redux-saga-React-demo/static/js/main.adc22f3f.js",
+    "main.css": "/Redux-saga-React-demo/static/css/main.d676230d.css",
+    "main.js": "/Redux-saga-React-demo/static/js/main.acb17010.js",
     "static/js/787.28cb0dcd.chunk.js": "/Redux-saga-React-demo/static/js/787.28cb0dcd.chunk.js",
     "index.html": "/Redux-saga-React-demo/index.html",
-    "main.b326e132.css.map": "/Redux-saga-React-demo/static/css/main.b326e132.css.map",
-    "main.adc22f3f.js.map": "/Redux-saga-React-demo/static/js/main.adc22f3f.js.map",
+    "main.d676230d.css.map": "/Redux-saga-React-demo/static/css/main.d676230d.css.map",
+    "main.acb17010.js.map": "/Redux-saga-React-demo/static/js/main.acb17010.js.map",
     "787.28cb0dcd.chunk.js.map": "/Redux-saga-React-demo/static/js/787.28cb0dcd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b326e132.css",
-    "static/js/main.adc22f3f.js"
+    "static/css/main.d676230d.css",
+    "static/js/main.acb17010.js"
   ]
 }
