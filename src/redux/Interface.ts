@@ -20,7 +20,7 @@ export interface Product {
 
 export interface Rootdata{
     type?:string;
-    data:Array<Product | data>;
+    data:Product[];
 }
 export interface Action {
     type?:string

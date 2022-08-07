@@ -1,11 +1,11 @@
 
 import { Add_To_Cart, EMPTY_Cart, REMOVE_From_Cart } from "./constant"
-import {Action} from './Interface'
+import {Rootdata} from './Interface'
 
 
    
 
-const cartData =(data=[],action:Action)=>{
+const cartData =(data=[],action:Rootdata)=>{
     //if else statement
     /*if(action.type===Add_To_Cart){
     console.log("Add_To_Cart Condition",action)
