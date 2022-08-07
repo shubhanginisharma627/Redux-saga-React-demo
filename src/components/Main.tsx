@@ -1,6 +1,7 @@
 import React from 'react';
 import './Main.css';
 import { addToCart, removeFromcart, Emptycart } from '../redux/action';
+import { useEffect } from 'react';
 import { useDispatch } from 'react-redux';
 import { productList } from '../redux/productAction';
 import { useSelector } from 'react-redux';
@@ -12,7 +13,9 @@ const Main=()=>{
  
      console.warn("data in main component from saga",data);
 
-   
+      useEffect(()=>{
+           productList()
+      })
      return(
           <div>
           <button onClick={()=>dispatch(addToCart(data))}>Add To Cart</button>
