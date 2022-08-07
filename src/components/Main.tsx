@@ -14,8 +14,8 @@ const Main=()=>{
      console.warn("data in main component from saga",data);
 
       useEffect(()=>{
-           productList()
-      })
+          dispatch(productList())
+      },[])
      return(
           <div>
           <button onClick={()=>dispatch(addToCart(data))}>Add To Cart</button>
