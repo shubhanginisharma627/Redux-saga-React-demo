@@ -25,9 +25,8 @@ const cartData =(data=[],action:Action)=>{
             
         case REMOVE_From_Cart:
             console.log("Remove_To_Cart Condition",action)
-            // data.length=data.length-1 
-           
-            const remainingItem =data.filter((item:any)=> item.id !== data.id)
+             //data.length=data.length-1 
+
              return [...data]
         case EMPTY_Cart:
             console.log("Empty cart",action)
