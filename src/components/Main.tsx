@@ -33,6 +33,7 @@ const Main = () => {
                               <div>Brand :{item.brand}</div>
                               <div>Price :{item.price}</div>
                               <div>Category :{item.category}</div>
+                              
                               <div><button onClick={() => dispatch(addToCart(item))}>Add to Cart</button></div>
                               <div><button onClick={() => dispatch(removeFromcart(item.id))}>Remove from Cart</button></div>
                          </div>) : []
